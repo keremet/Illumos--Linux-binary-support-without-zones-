@@ -1,0 +1,5 @@
+# cp -r bjlib /usr/lib/bjlib
+
+Test:
+remove cd commands from bjfilterpixmaip1500.sh
+cat 1.ps|/usr/bin/gs -r600 -g4958x7016 -q -dNOPROMPT -dSAFER -sDEVICE=ppmraw -sOutputFile=- - |./bjfilterpixmaip1500.sh
